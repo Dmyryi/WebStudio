@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,8 +14,9 @@
 </head>
 
 <body class="body">
-    <div class="container">
+    
         <header class="header">
+            <div class="container">
             <nav class="navigation">
                 <a class="logo-link link" href=""><span class="web">Web</span>Studio</a>
                 <ul class="navigation-list">
@@ -45,6 +46,9 @@
                     </li>
                 </ul>
             </nav>
+            <button type="button" class="burger-btn" data-menu-button><svg class="burger-icon">
+                 <use href="./images/sprite/burger.svg#icon-menu_40px"></use>
+            </svg></button>
             <ul class="connection-list list">
                 <li class="connection-item">
                     <a class="connection link" href="mailto:info@devstudio.com" lang="en">
@@ -59,11 +63,29 @@
                     </svg>+38 096 111 11 11</a>
                         </li>
                         </ul>
+                    </div>
+                    <div class="mobile-menu" data-menu>
+                        <button type="button" class="mobile-menu-close-btn" data-menu-close>
+                            <svg class="mobile-menu-close-icon">
+                                <use href="./images/sprite/1symbol-defs.svg#icon-close"></use>
+                            </svg>
+                        </button>
+                        <ul class="mobile-menu-list">
+                            <li class="mobile-menu-item list">
+                                <a href="" class="mobile-menu-link link">Студия</a>
+                            </li>
+                                <li class="mobile-menu-item list">
+                                <a href="" class="mobile-menu-link link">Портфолио</a>
+                            </li>
+                            <li class="mobile-menu-item list">
+                                <a href="" class="mobile-menu-link link">Контакты</a>
+                            </li>
+                        </ul>                    </div>
                         </header>
-                        </div>
+                        
                         
                         <main>
-                            <section class="hero">
+                            <!-- <section class="hero">
                                 <div class="heading">
                                     <h1 class="heading-title">Эффективные решения для вашего бизнеса</h1>
                                     <button class="button" type="button" data-modal-open>Заказать услугу</button>
@@ -108,8 +130,8 @@
                     </li>
                 </ul>
             </div>
-        </section>
-        <section class="occupation">
+        </section> -->
+        <!-- <section class="occupation">
             <div>
                 <h2 class="heading-2">Чем мы занимаемся</h2>
                 <ul class="img-work">
@@ -127,8 +149,8 @@
                     </li>
                 </ul>
             </div>
-        </section>
-        <section class="our-team">
+        </section> -->
+        <!-- <section class="our-team">
                 <h2 class="heading-3">Наша команда</h2>
                 <ul class="team-list" >
                     <li class="team list">
@@ -288,8 +310,8 @@
 </a>
                                 </li>
                             </ul>
-        </section>
-<section class="section-item">
+        </section> -->
+<!-- <section class="section-item">
     <h2 class="heading-clients">Постоянные клиенты</h2>
 <ul class="clients list">
     <li class="clients-item">
@@ -335,9 +357,9 @@
         </div>
     </li>
 </ul>
-</section>
+</section> -->
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="div-footer">
             <div class="div-logo">
                 <a class="footer-logo link" href=" "><span class="web">Web</span>Studio</a>
@@ -410,9 +432,9 @@
     </label>
 </div>
 
-    </footer>
+    </footer> -->
 
-<div class="backdrop is-hidden" data-modal>
+<!-- <div class="backdrop is-hidden" data-modal>
     <div class="modal">
     <button class="modal-close-btn" data-modal-close>
         <svg class="modal-close-svg" data-modal-close>
@@ -456,8 +478,10 @@
 <button type="submit" class="button">Отправить</button>
     </form>
 </div>
-</div>
+</div> -->
 <script src="./js/modal.js"></script>
+<script src="./js/mobile-menu.js"></script>
+<script src="https://unpkg.com/spacingjs" defer></script>
 </body>
 
 </html>
