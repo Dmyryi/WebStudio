@@ -628,7 +628,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .heading {
-    background-image: url("../../images/background/Header img (1).png");
+    background-image: url("../../images/background/header-img.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #2f303a;
