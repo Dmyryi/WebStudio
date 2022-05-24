@@ -11,14 +11,14 @@
   
   @media screen and (min-width: 480px) {
     .container {
-      width: 448px;
+      width: 480px;
       margin: 0 auto;
     }
   }
   
   @media screen and (min-width: 768px) {
     .container {
-      width: 720px;
+      width: 768px;
   
       .about & {
         display: flex;
@@ -28,6 +28,30 @@
   
   @media screen and (min-width: 1200px) {
     .container {
+      width: 1200px;
+    }
+  }
+
+  @media screen and (min-width: 480px) {
+    .containere{
+      width: 480px;
+      margin: 0 auto;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .containere {
+      width: 768px;
+  
+      .about & {
+        display: flex;
+      }
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .containere {
       width: 1200px;
     }
   }

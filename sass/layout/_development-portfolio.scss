@@ -1,7 +1,36 @@
 .development {
-    width: 1200px;
-    margin: 0 auto;
+   
+align-items:center;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 94px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
   }
+
+  .development {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.developmentt li {
+  
+  display: inline-flex;
+  border: 1px solid #cccccc;
+  margin:0 auto;
+}
+
+
+
+
+@media  screen and(min-width:360px) {
+  .img-portfolio{
+    width: 320px;
+  }
+}
+

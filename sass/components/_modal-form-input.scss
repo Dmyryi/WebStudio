@@ -1,5 +1,5 @@
 .modal-form-input{
-    width:488px;
+    width:220px;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -12,3 +12,27 @@
     border-color: #2196F3;
     fill:#2196f3;
   }
+
+  @media screen and(min-width:480px) {
+    .modal-form-input{
+      width:300px;
+      height: 40px;
+      border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding-left: 42px;
+    transition: border-color 250ms linear;
+    
+  }
+}
+
+@media screen and(min-width:768px) {
+  .modal-form-input{
+    width:490px;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-left: 42px;
+  transition: border-color 250ms linear;
+  
+}
+}
